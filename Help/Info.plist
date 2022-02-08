@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GRANT TYPE</key>
+	<string>password</string>
+	<key>CLIENT SECRET</key>
+	<string>R61r7zkoePHJvZIFpfocEcsPxSwBosmWVCRUSjSj</string>
+	<key>CLIENT ID</key>
+	<string>4</string>
+	<key>API DEVELOPMENT URL</key>
+	<string>http://192.168.122.1:8000</string>
+</dict>
+</plist>

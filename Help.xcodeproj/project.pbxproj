@@ -33,7 +33,6 @@
 		FB48B586278D6A040071B1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B585278D6A040071B1BF /* AppDelegate.swift */; };
 		FB48B58F278D6A0C0071B1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB48B58E278D6A0C0071B1BF /* Assets.xcassets */; };
 		FB48B592278D6A0C0071B1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB48B590278D6A0C0071B1BF /* LaunchScreen.storyboard */; };
-		FB48B59D278D6A0C0071B1BF /* HelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B59C278D6A0C0071B1BF /* HelpTests.swift */; };
 		FB48B5A7278D6A0C0071B1BF /* HelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B5A6278D6A0C0071B1BF /* HelpUITests.swift */; };
 		FB48B5A9278D6A0C0071B1BF /* HelpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B5A8278D6A0C0071B1BF /* HelpUITestsLaunchTests.swift */; };
 		FB48B5B8278D6AC40071B1BF /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B5B7278D6AC40071B1BF /* LoginContract.swift */; };
@@ -46,6 +45,68 @@
 		FB48B5CD278D79B50071B1BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B5CB278D79B50071B1BF /* LoginViewController.swift */; };
 		FB48B5CE278D79B50071B1BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B5CB278D79B50071B1BF /* LoginViewController.swift */; };
 		FBAD19E327A774E3007B1219 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD19E227A774E3007B1219 /* UIImageViewExtension.swift */; };
+		FBB4E11427B4DF7A0050DBE6 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4E11327B4DF7A0050DBE6 /* ValidationService.swift */; };
+		FBB4E11927B4E7430050DBE6 /* HelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B59C278D6A0C0071B1BF /* HelpTests.swift */; };
+		FBB4E11A27B4EE230050DBE6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2C4278FE15700E83678 /* SplashViewController.swift */; };
+		FBB4E11B27B4EE600050DBE6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B41278EB959001DD69C /* LoginRouter.swift */; };
+		FBB4E11C27B4EE8A0050DBE6 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2CC278FE24900E83678 /* SplashPresenter.swift */; };
+		FBB4E11D27B4EE8D0050DBE6 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2C8278FE17800E83678 /* SplashRouter.swift */; };
+		FBB4E11E27B4EE920050DBE6 /* SplashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2CA278FE18E00E83678 /* SplashContract.swift */; };
+		FBB4E11F27B4EEA10050DBE6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B3F278EB7C8001DD69C /* LoginInteractor.swift */; };
+		FBB4E12027B4EEA40050DBE6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B3D278EB7B3001DD69C /* LoginPresenter.swift */; };
+		FBB4E12127B4EEE20050DBE6 /* HomeDonationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CF5279E4712004ED8E0 /* HomeDonationsTableViewCell.swift */; };
+		FBB4E12227B4EEE80050DBE6 /* DonationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CFA279E48C3004ED8E0 /* DonationsTableViewCell.swift */; };
+		FBB4E12327B4EEEF0050DBE6 /* HomeResumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CEC279E04DF004ED8E0 /* HomeResumeTableViewCell.swift */; };
+		FBB4E12427B4EEF80050DBE6 /* HomeWellcomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF74A627994132009132F1 /* HomeWellcomeTableViewCell.swift */; };
+		FBB4E12527B4EEFD0050DBE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2CE278FE86200E83678 /* HomeViewController.swift */; };
+		FBB4E12627B4EF0F0050DBE6 /* UserFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3813CD27A7A12D005D7C28 /* UserFeedCollectionViewCell.swift */; };
+		FBB4E12727B4EF120050DBE6 /* UserFeedMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3813C727A79BCB005D7C28 /* UserFeedMenuCollectionViewCell.swift */; };
+		FBB4E12827B4EF150050DBE6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF74B827995F8C009132F1 /* UserViewController.swift */; };
+		FBB4E12927B4EF1E0050DBE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CF0279E2BC4004ED8E0 /* User.swift */; };
+		FBB4E12A27B4EF230050DBE6 /* UserContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF74B627995EC3009132F1 /* UserContract.swift */; };
+		FBB4E12B27B4EF400050DBE6 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2256E27A257EB00B87816 /* CollectionExtension.swift */; };
+		FBB4E12C27B4EF450050DBE6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2257027A25ECB00B87816 /* StringExtension.swift */; };
+		FBB4E12D27B4EF480050DBE6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2257227A263EF00B87816 /* UIViewExtension.swift */; };
+		FBB4E12E27B4EF4B0050DBE6 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD19E227A774E3007B1219 /* UIImageViewExtension.swift */; };
+		FBB4E12F27B4EF4F0050DBE6 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B3A278EA278001DD69C /* NetworkUtils.swift */; };
+		FBB4E13027B4EF580050DBE6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2B7278FD57A00E83678 /* UIViewController.swift */; };
+		FBB4E13127B4EF5E0050DBE6 /* UsernameProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF41EFB27A72D3F0001E1A8 /* UsernameProfileView.swift */; };
+		FBB4E13227B4EF650050DBE6 /* UIRoundedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CF3279E3A9D004ED8E0 /* UIRoundedTableViewCell.swift */; };
+		FBB4E13327B4EF680050DBE6 /* UIRoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CFE279E49A4004ED8E0 /* UIRoundedImageView.swift */; };
+		FBB4E13427B4EF6D0050DBE6 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4E11327B4DF7A0050DBE6 /* ValidationService.swift */; };
+		FBB4E13527B4EF710050DBE6 /* HelpNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B34278E636A001DD69C /* HelpNetwork.swift */; };
+		FBB4E13627B4EF750050DBE6 /* LoginNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09BD0B278ED7420063AA51 /* LoginNetwork.swift */; };
+		FBB4E13727B4EF780050DBE6 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B37278E9526001DD69C /* UserDefaultsManager.swift */; };
+		FBB4E13827B4EFEA0050DBE6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2B7278FD57A00E83678 /* UIViewController.swift */; };
+		FBB4E13927B4F0120050DBE6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B41278EB959001DD69C /* LoginRouter.swift */; };
+		FBB4E13A27B4F0250050DBE6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2C4278FE15700E83678 /* SplashViewController.swift */; };
+		FBB4E13B27B4F03E0050DBE6 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2256E27A257EB00B87816 /* CollectionExtension.swift */; };
+		FBB4E13C27B4F0410050DBE6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2257027A25ECB00B87816 /* StringExtension.swift */; };
+		FBB4E13D27B4F0440050DBE6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2257227A263EF00B87816 /* UIViewExtension.swift */; };
+		FBB4E13E27B4F0470050DBE6 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD19E227A774E3007B1219 /* UIImageViewExtension.swift */; };
+		FBB4E13F27B4F04C0050DBE6 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B3A278EA278001DD69C /* NetworkUtils.swift */; };
+		FBB4E14027B4F0540050DBE6 /* UsernameProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF41EFB27A72D3F0001E1A8 /* UsernameProfileView.swift */; };
+		FBB4E14127B4F05B0050DBE6 /* UIRoundedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CF3279E3A9D004ED8E0 /* UIRoundedTableViewCell.swift */; };
+		FBB4E14227B4F05D0050DBE6 /* UIRoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CFE279E49A4004ED8E0 /* UIRoundedImageView.swift */; };
+		FBB4E14327B4F0610050DBE6 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4E11327B4DF7A0050DBE6 /* ValidationService.swift */; };
+		FBB4E14427B4F0640050DBE6 /* HelpNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B34278E636A001DD69C /* HelpNetwork.swift */; };
+		FBB4E14527B4F0680050DBE6 /* LoginNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09BD0B278ED7420063AA51 /* LoginNetwork.swift */; };
+		FBB4E14627B4F06B0050DBE6 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B37278E9526001DD69C /* UserDefaultsManager.swift */; };
+		FBB4E14727B4F0730050DBE6 /* UserFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3813CD27A7A12D005D7C28 /* UserFeedCollectionViewCell.swift */; };
+		FBB4E14827B4F07B0050DBE6 /* UserFeedMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3813C727A79BCB005D7C28 /* UserFeedMenuCollectionViewCell.swift */; };
+		FBB4E14927B4F0800050DBE6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF74B827995F8C009132F1 /* UserViewController.swift */; };
+		FBB4E14A27B4F08F0050DBE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CF0279E2BC4004ED8E0 /* User.swift */; };
+		FBB4E14B27B4F0970050DBE6 /* UserContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF74B627995EC3009132F1 /* UserContract.swift */; };
+		FBB4E14C27B4F0A50050DBE6 /* HomeDonationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CF5279E4712004ED8E0 /* HomeDonationsTableViewCell.swift */; };
+		FBB4E14D27B4F0AA0050DBE6 /* DonationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CFA279E48C3004ED8E0 /* DonationsTableViewCell.swift */; };
+		FBB4E14E27B4F0B20050DBE6 /* HomeResumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB280CEC279E04DF004ED8E0 /* HomeResumeTableViewCell.swift */; };
+		FBB4E14F27B4F0B80050DBE6 /* HomeWellcomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF74A627994132009132F1 /* HomeWellcomeTableViewCell.swift */; };
+		FBB4E15027B4F0BD0050DBE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2CE278FE86200E83678 /* HomeViewController.swift */; };
+		FBB4E15127B4F0D00050DBE6 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2CC278FE24900E83678 /* SplashPresenter.swift */; };
+		FBB4E15227B4F0D60050DBE6 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2C8278FE17800E83678 /* SplashRouter.swift */; };
+		FBB4E15327B4F0DA0050DBE6 /* SplashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8E2CA278FE18E00E83678 /* SplashContract.swift */; };
+		FBB4E15427B4F0E70050DBE6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B3F278EB7C8001DD69C /* LoginInteractor.swift */; };
+		FBB4E15527B4F0EB0050DBE6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB135B3D278EB7B3001DD69C /* LoginPresenter.swift */; };
 		FBE2256F27A257EB00B87816 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2256E27A257EB00B87816 /* CollectionExtension.swift */; };
 		FBE2257127A25ECB00B87816 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2257027A25ECB00B87816 /* StringExtension.swift */; };
 		FBE2257327A263EF00B87816 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2257227A263EF00B87816 /* UIViewExtension.swift */; };
@@ -127,6 +188,7 @@
 		FB48B5C3278D784D0071B1BF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		FB48B5CB278D79B50071B1BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FBAD19E227A774E3007B1219 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		FBB4E11327B4DF7A0050DBE6 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		FBE2256E27A257EB00B87816 /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 		FBE2257027A25ECB00B87816 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		FBE2257227A263EF00B87816 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -221,6 +283,7 @@
 		FB135B36278E9503001DD69C /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FBB4E11227B4DF530050DBE6 /* Validation */,
 				FB135B33278E6310001DD69C /* Network */,
 				FB135B37278E9526001DD69C /* UserDefaultsManager.swift */,
 			);
@@ -399,6 +462,14 @@
 				FB48B5CB278D79B50071B1BF /* LoginViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FBB4E11227B4DF530050DBE6 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				FBB4E11327B4DF7A0050DBE6 /* ValidationService.swift */,
+			);
+			path = Validation;
 			sourceTree = "<group>";
 		};
 		FBE2256D27A2551800B87816 /* Extensions */ = {
@@ -898,6 +969,7 @@
 				FBEF74B727995EC3009132F1 /* UserContract.swift in Sources */,
 				FB135B35278E636A001DD69C /* HelpNetwork.swift in Sources */,
 				FB280CF4279E3A9D004ED8E0 /* UIRoundedTableViewCell.swift in Sources */,
+				FBB4E11427B4DF7A0050DBE6 /* ValidationService.swift in Sources */,
 				FB280CF7279E4712004ED8E0 /* HomeDonationsTableViewCell.swift in Sources */,
 				FBEF74BA27995F8C009132F1 /* UserViewController.swift in Sources */,
 				FB280CF1279E2BC4004ED8E0 /* User.swift in Sources */,
@@ -908,9 +980,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4E11E27B4EE920050DBE6 /* SplashContract.swift in Sources */,
+				FBB4E12827B4EF150050DBE6 /* UserViewController.swift in Sources */,
+				FBB4E12227B4EEE80050DBE6 /* DonationsTableViewCell.swift in Sources */,
+				FBB4E13327B4EF680050DBE6 /* UIRoundedImageView.swift in Sources */,
+				FBB4E12427B4EEF80050DBE6 /* HomeWellcomeTableViewCell.swift in Sources */,
 				FB48B5CD278D79B50071B1BF /* LoginViewController.swift in Sources */,
-				FB48B59D278D6A0C0071B1BF /* HelpTests.swift in Sources */,
+				FBB4E13527B4EF710050DBE6 /* HelpNetwork.swift in Sources */,
 				FB48B5B9278D6AC40071B1BF /* LoginContract.swift in Sources */,
+				FBB4E12A27B4EF230050DBE6 /* UserContract.swift in Sources */,
+				FBB4E12527B4EEFD0050DBE6 /* HomeViewController.swift in Sources */,
+				FBB4E12B27B4EF400050DBE6 /* CollectionExtension.swift in Sources */,
+				FBB4E12127B4EEE20050DBE6 /* HomeDonationsTableViewCell.swift in Sources */,
+				FBB4E12327B4EEEF0050DBE6 /* HomeResumeTableViewCell.swift in Sources */,
+				FBB4E11D27B4EE8D0050DBE6 /* SplashRouter.swift in Sources */,
+				FBB4E12027B4EEA40050DBE6 /* LoginPresenter.swift in Sources */,
+				FBB4E12627B4EF0F0050DBE6 /* UserFeedCollectionViewCell.swift in Sources */,
+				FBB4E13627B4EF750050DBE6 /* LoginNetwork.swift in Sources */,
+				FBB4E12E27B4EF4B0050DBE6 /* UIImageViewExtension.swift in Sources */,
+				FBB4E12727B4EF120050DBE6 /* UserFeedMenuCollectionViewCell.swift in Sources */,
+				FBB4E11927B4E7430050DBE6 /* HelpTests.swift in Sources */,
+				FBB4E11B27B4EE600050DBE6 /* LoginRouter.swift in Sources */,
+				FBB4E11A27B4EE230050DBE6 /* SplashViewController.swift in Sources */,
+				FBB4E11C27B4EE8A0050DBE6 /* SplashPresenter.swift in Sources */,
+				FBB4E13027B4EF580050DBE6 /* UIViewController.swift in Sources */,
+				FBB4E13227B4EF650050DBE6 /* UIRoundedTableViewCell.swift in Sources */,
+				FBB4E13127B4EF5E0050DBE6 /* UsernameProfileView.swift in Sources */,
+				FBB4E13727B4EF780050DBE6 /* UserDefaultsManager.swift in Sources */,
+				FBB4E12D27B4EF480050DBE6 /* UIViewExtension.swift in Sources */,
+				FBB4E11F27B4EEA10050DBE6 /* LoginInteractor.swift in Sources */,
+				FBB4E13427B4EF6D0050DBE6 /* ValidationService.swift in Sources */,
+				FBB4E12F27B4EF4F0050DBE6 /* NetworkUtils.swift in Sources */,
+				FBB4E12C27B4EF450050DBE6 /* StringExtension.swift in Sources */,
+				FBB4E12927B4EF1E0050DBE6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,10 +1020,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB4E14427B4F0640050DBE6 /* HelpNetwork.swift in Sources */,
+				FBB4E13D27B4F0440050DBE6 /* UIViewExtension.swift in Sources */,
+				FBB4E14F27B4F0B80050DBE6 /* HomeWellcomeTableViewCell.swift in Sources */,
 				FB48B5CE278D79B50071B1BF /* LoginViewController.swift in Sources */,
+				FBB4E14927B4F0800050DBE6 /* UserViewController.swift in Sources */,
 				FB48B5A7278D6A0C0071B1BF /* HelpUITests.swift in Sources */,
+				FBB4E13927B4F0120050DBE6 /* LoginRouter.swift in Sources */,
+				FBB4E14627B4F06B0050DBE6 /* UserDefaultsManager.swift in Sources */,
+				FBB4E14C27B4F0A50050DBE6 /* HomeDonationsTableViewCell.swift in Sources */,
+				FBB4E13F27B4F04C0050DBE6 /* NetworkUtils.swift in Sources */,
+				FBB4E14227B4F05D0050DBE6 /* UIRoundedImageView.swift in Sources */,
+				FBB4E15127B4F0D00050DBE6 /* SplashPresenter.swift in Sources */,
 				FB48B5BA278D6AC40071B1BF /* LoginContract.swift in Sources */,
+				FBB4E15227B4F0D60050DBE6 /* SplashRouter.swift in Sources */,
+				FBB4E14B27B4F0970050DBE6 /* UserContract.swift in Sources */,
+				FBB4E14027B4F0540050DBE6 /* UsernameProfileView.swift in Sources */,
+				FBB4E14127B4F05B0050DBE6 /* UIRoundedTableViewCell.swift in Sources */,
+				FBB4E14527B4F0680050DBE6 /* LoginNetwork.swift in Sources */,
 				FB48B5A9278D6A0C0071B1BF /* HelpUITestsLaunchTests.swift in Sources */,
+				FBB4E13E27B4F0470050DBE6 /* UIImageViewExtension.swift in Sources */,
+				FBB4E14727B4F0730050DBE6 /* UserFeedCollectionViewCell.swift in Sources */,
+				FBB4E15027B4F0BD0050DBE6 /* HomeViewController.swift in Sources */,
+				FBB4E13C27B4F0410050DBE6 /* StringExtension.swift in Sources */,
+				FBB4E15427B4F0E70050DBE6 /* LoginInteractor.swift in Sources */,
+				FBB4E14D27B4F0AA0050DBE6 /* DonationsTableViewCell.swift in Sources */,
+				FBB4E15327B4F0DA0050DBE6 /* SplashContract.swift in Sources */,
+				FBB4E15527B4F0EB0050DBE6 /* LoginPresenter.swift in Sources */,
+				FBB4E13B27B4F03E0050DBE6 /* CollectionExtension.swift in Sources */,
+				FBB4E13A27B4F0250050DBE6 /* SplashViewController.swift in Sources */,
+				FBB4E14827B4F07B0050DBE6 /* UserFeedMenuCollectionViewCell.swift in Sources */,
+				FBB4E14327B4F0610050DBE6 /* ValidationService.swift in Sources */,
+				FBB4E13827B4EFEA0050DBE6 /* UIViewController.swift in Sources */,
+				FBB4E14E27B4F0B20050DBE6 /* HomeResumeTableViewCell.swift in Sources */,
+				FBB4E14A27B4F08F0050DBE6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

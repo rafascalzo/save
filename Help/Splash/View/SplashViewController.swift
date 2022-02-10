@@ -37,6 +37,6 @@ extension SplashViewController: SplashViewDelegate {
     }
 }
 
-protocol SplashViewDelegate {
+public protocol SplashViewDelegate {
     func userDidLogin()
 }

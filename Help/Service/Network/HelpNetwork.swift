@@ -50,7 +50,7 @@ class HelpNetwork: Session {
             }
         }
         request(url: url, method: method, parameters: parametersDict, encoding: encoding, headers: HTTPHeaders(headers)).validate().responseJSON { response in
-            
+            // TO DO - validate
             if response.response?.statusCode == HttpStatusCode.unauthorized.rawValue {
                 
             }

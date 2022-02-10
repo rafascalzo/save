@@ -28,7 +28,7 @@ extension UIViewController {
     
     static let activityIndicatorView = SpinnerViewController()
     
-    func showAlertOk(title: String?, message: String?) {
+    public func showAlertOk(title: String?, message: String?) {
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let ok = UIAlertAction(title: "ok", style: .default)
         ac.addAction(ok)
@@ -37,14 +37,14 @@ extension UIViewController {
         }
     }
     
-    func showActivityViewController(view: UIView) {
+    public func showActivityViewController(view: UIView) {
         addChild(UIViewController.activityIndicatorView)
         UIViewController.activityIndicatorView.view.frame = view.frame
         view.addSubview(UIViewController.activityIndicatorView.view)
         UIViewController.activityIndicatorView.didMove(toParent: self)
     }
     
-    func hideActivityViewController() {
+    public func hideActivityViewController() {
         UIViewController.activityIndicatorView.willMove(toParent: nil)
         UIViewController.activityIndicatorView.view.removeFromSuperview()
         UIViewController.activityIndicatorView.removeFromParent()

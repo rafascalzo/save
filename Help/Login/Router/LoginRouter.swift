@@ -8,14 +8,16 @@
 import Foundation
 import UIKit
 
-class LoginRouter: LoginWireframe {
+public class LoginRouter: LoginWireframe {
     
     weak var viewController: LoginViewController?
     
-    public init(_ viewController: LoginViewController) {
+    public init() {}
+    
+    init(_ viewController: LoginViewController) {
         self.viewController = viewController
     }
-    
+     
     static func createModule(viewController: LoginViewController) {
         
         let presenter: LoginPresentation & LoginInteractorOutput = LoginPresenter()
